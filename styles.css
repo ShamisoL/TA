@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Public Sans", sans-serif;
+}
+p {
+  max-width: 50%;
+}
+.about-text {
+  max-width: 100%;
+}
+.email-link {
+  color: yellow;
+}
