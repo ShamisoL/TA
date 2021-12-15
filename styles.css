@@ -3,12 +3,38 @@ body {
   color: white;
   font-family: "Public Sans", sans-serif;
 }
-p {
-  max-width: 50%;
-}
-.about-text {
-  max-width: 100%;
-}
+
 .email-link {
+  color: white;
+  display: block;
+}
+.insta-link {
+  display: block;
+}
+.about-links {
+  color: white;
+}
+:hover .email-link {
   color: yellow;
+}
+:hover .about-links {
+  color: yellow;
+  transition: ease-in-out 100ms;
+}
+.insta-link {
+  color: white;
+}
+:hover .insta-link {
+  color: yellow;
+  transition: ease-in-out 100ms;
+}
+footer {
+  font-size: 12px;
+}
+
+@media (max-width: 573px) {
+  .contact {
+    display: inline-block !important;
+    margin-top: 40px;
+  }
 }
