@@ -29,12 +29,8 @@ footer {
 }
 
 @media (max-width: 573px) {
-  .contact {
-    display: inline-block !important;
-    margin-top: 40px;
-  }
 }
-@media (min-width: 992px) {
+@media (min-width: 1500px) {
   p {
     max-width: 50% !important;
   }
