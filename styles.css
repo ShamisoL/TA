@@ -33,7 +33,9 @@ footer {
     display: inline-block !important;
     margin-top: 40px;
   }
+}
+@media (min-width: 992px) {
   p {
-    margin-top: 40px;
+    max-width: 50% !important;
   }
 }
