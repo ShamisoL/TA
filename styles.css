@@ -28,8 +28,8 @@ footer {
   font-size: 12px;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 500px) {
   p {
-    max-width: 55% !important;
+    max-width: 100% !important;
   }
 }
