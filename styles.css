@@ -27,9 +27,8 @@ a:hover {
 footer {
   font-size: 12px;
 }
-
-@media (min-width: 500px) {
+@media (min-width: 1021px) {
   p {
-    max-width: 100% !important;
+    max-width: 60% !important;
   }
 }
